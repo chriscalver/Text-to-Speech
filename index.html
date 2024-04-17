@@ -4,19 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML 5 Boilerplate</title>
+    <title>Text to Speech Converter</title>
+
+    <script src="index.js" async></script>
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="hero">
-      <h1>Text to Speech <span>Converter</span></h1>
+      <h1>Text to Speeech <span>Converter</span></h1>
       <textarea placeholder="Paste text here..."></textarea>
       <div class="row">
-        <select></select>
-        <button><img src="images/play.png">Listen</button>
+        <select>
+         
+            <option value="0">Microsoft David - English (United States)</option>
+            <option value="1">Microsoft Richard - English (Canada)</option>
+            <option value="2">Microsoft Linda - English (Canada)</option>
+            <option value="3">Microsoft Mark - English (United States)</option>
+            <option value="4">Microsoft Zira - English (United States)</option>
+            <option value="5">Google Deutsch</option>
+            <option value="6">Google US English</option>
+            <option value="7">Google UK English Female</option>
+            <option value="8">Google UK English Male</option>
+            <option value="9">Google español</option>
+            <option value="10">Google español de Estados Unidos</option>
+            <option value="11">Google français</option>
+            <option value="12">Google हिन्दी</option>
+            <option value="13">Google Bahasa Indonesia</option>
+            <option value="14">Google italiano</option>
+            <option value="15">Google 日本語</option>
+            <option value="16">Google 한국의</option>
+            <option value="17">Google Nederlands</option>
+          
+        </select>
+        <button>Play</button>
       </div>
     </div>
-
-    <script src="index.js"></script>
   </body>
 </html>
