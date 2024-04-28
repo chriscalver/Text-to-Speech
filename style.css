@@ -4,6 +4,7 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   align-items: center;
+  
 
 }
 .hero {
@@ -11,15 +12,16 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
-  background: #fdffff;
+  background: #d3cab0;
 
 }
 .hero h1 {
   font-size: 32px;
   font-weight: 500;
-  margin-top: -50;
+  /* margin-top: -50; */
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 
